@@ -31,7 +31,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-/* body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
   -webkit-animation: none !important;
   -ms-animation: none !important;
@@ -40,33 +40,34 @@ html {
   -webkit-transition: none !important;
   -ms-transition: none !important;
   transition: none !important;
-} */
+}
 
 #headerToggle {
   display: block;
 }
 
 /* the most awesome background - the secret background party */
-/* body {
-  animation: colorchange 1s infinite; /* animation-name followed by duration in seconds*/
+body {
+  /* animation: colorchange 1s infinite; 
+  animation-name followed by duration in seconds */
      /* you could also use milliseconds (ms) or something like 2.5s */
-  /* -webkit-animation: colorchange 1s inifintite; /* Chrome and Safari */
-/* }
+  /*-webkit-animation: colorchange 1s inifintite; /* Chrome and Safari
+}
 
- @keyframes colorchange
+@keyframes colorchange
 {
   0%   {background: red;}
   25%  {background: yellow;}
   50%  {background: blue;}
   75%  {background: green;}
   100% {background: red;}
-} 
+}   
 
- @-webkit-keyframes colorchange  
+@-webkit-keyframes colorchange  
 {
   0%   {background: red;}
   25%  {background: yellow;}
   50%  {background: blue;}
   75%  {background: green;}
-  100% {background: red;} */
-/* }   */
+  100% {background: red;} 
+} 

@@ -8,7 +8,7 @@ body {
 body {
   background: #fff;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 19pt;
+  font-size: 15pt;
   font-weight: 300;
   line-height: 1.75em;
   color: #888;
@@ -33,7 +33,7 @@ input, select, textarea {
 }
 input, textarea, select {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 19pt;
+  font-size: 15pt;
   font-weight: 300;
   line-height: 1.75em;
   color: #888;
@@ -51,7 +51,7 @@ h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
   color: #333;
 }
 h2 {
-  font-size: 2em;
+  font-size: 15pt;
   letter-spacing: -1px;
 }
 
@@ -64,7 +64,7 @@ h2 {
     }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 15pt;
 }
 
 header {
@@ -101,12 +101,12 @@ a {
 sub {
   position: relative;
   top: 0.5em;
-  font-size: 0.8em;
+  font-size: 2em;
 }
 sup {
   position: relative;
   top: -0.5em;
-  font-size: 0.8em;
+  font-size: 2em;
 }
 hr {
   border: 0;
@@ -271,7 +271,7 @@ button,
   }
 
     .item header h3 {
-      font-size: 1em;
+      font-size: 0.8em;
     }
 
 /* Icons */
@@ -283,7 +283,7 @@ button,
   .icon:before {
     display: inline-block;
     font-family: FontAwesome;
-    font-size: 1.25em;
+    font-size: 0.8em;
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
@@ -363,7 +363,7 @@ button,
 #logo {
   position: relative;
   margin: 1.75em 1.5em 1.5em 1.5em;
-  min-height: 48px;
+  min-height: 70px;
   cursor: default;
 }
 
@@ -371,14 +371,14 @@ button,
     position: relative;
     color: #fff;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 2em;
     line-height: 1em;
   }
 
   #logo p {
     position: relative;
     display: block;
-    font-size: 0.6em;
+    font-size: 1em;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.25em;
     margin: 0.5em 0 0 0;
@@ -416,7 +416,7 @@ button,
       #nav ul li a span {
         position: relative;
         display: block;
-        font-size: 0.8em;
+        font-size: 1em;
       }
 
         #nav ul li a span:before {

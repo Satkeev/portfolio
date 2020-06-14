@@ -10,6 +10,7 @@ br.clear {
   margin: 0 auto;
   max-width: 100%;
   width: 1400px;
+  background-color: blanchedalmond
 }
 
 .row {
@@ -281,14 +282,14 @@ section, article {
   }
 
   .image.satkeev {
-    width: 48px;
-    height: 48px;
+    width: 70px;
+    height: 80px;
     background: #f00;
   }
 
     .image.satkeev img {
-      width: 48px;
-      height: 48px;
+      width: 70px;
+      height: 80px;
     }
 
   .image.fit {
